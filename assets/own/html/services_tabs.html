@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+     function redimensiona()
+     {
+          top.grand(document.body.scrollHeight);
+     }
+	</script>
+</head>
+<body onLoad=”redimensiona();”>
+<base target="_parent">
+<div>
+	<ul class="nav nav-tabs nav-justified">
+		<li class="active"><a data-toggle="tab" href="#wh">Web Hosting</a></li>
+		<li><a data-toggle="tab" href="#mailsv">Servidores de Correo</a></li>
+		<li><a data-toggle="tab" href="#cloud">Almacenamiento en la Nube</a></li>
+	</ul>
+	<div class="tab-content btn-group-justified" style="margin-left: 5%; margin-right: 5%">
+		<div id="wh" class="tab-pane fade in active">
+		  <h3>WEB HOSTING</h3>
+		  <ul>
+			<li>Almacenamiento en SSD</li>
+			<li>Ancho de Banda ILIMITADO</li>
+			<li>Backups Diarios de Todas las Webs</li>
+			<li>Cuentas de correo GRATIS*</li>
+		  </ul>
+		<br><br><a class="btn btn-success" style='width:95%' href="webhost.html">Más Información</a>
+		</div>
+		<div id="mailsv" class="tab-pane fade">
+		  <h3>MAIL SERVERS</h3>
+		  <ul>
+			<li>Personalizado con tu Dominio</li>
+			<li>Cantidad de correos saliente: ILIMITADO</li>
+			<li>Cantidad de correos entrantes: Hasta llenar espacio asignado</li>
+			<li>Controladas por Roundcube</li>
+		  </ul>
+		  <br><br><a class="btn btn-success" style='width:95%' href="mailsv.html">Más Información</a>
+		</div>
+		<div id="cloud" class="tab-pane fade">
+		  <h3>CLOUD STORAGE</h3>
+		  <ul>
+			<li>Almacenamiento en SSD</li>
+			<li>Ancho de Banda ILIMITADO</li>
+			<li>API de uso público</li>
+			<li>Crea varias cuentas de usuarios y distribuye tu espacio</li>
+		  </ul>
+		  <br><br><a class="btn btn-success" style='width:95%' href="cloud.html">Más Información</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
