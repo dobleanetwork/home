@@ -1,0 +1,57 @@
+.featurette-small-top {
+    margin-top: -2rem !important;
+}
+
+.featurette h3 {
+    margin-top: 1rem;
+	font-size: 2.2rem;
+}
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#serviciosdiv {
+	height: 380px;
+}
+
+#ourservices {
+	height: 360px;
+}
+
+@media (min-width: 1200px) {
+	
+	#serviciosdiv {
+		height: 280px;
+	}
+
+	#ourservices {
+		height: 300px;
+	}
+	
+}
+
+#opinionesdiv {
+	height: 400px;
+}
+
+#lasopiniones {
+	height: 400px;
+}
+
+@media (min-width: 1200px) {
+	
+	#opinionesdiv {
+		height: 230px;
+	}
+
+	#lasopiniones {
+		height: 250px;
+	}
+	
+}

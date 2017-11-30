@@ -7,7 +7,8 @@
     <!-- Codificación de Caracteres en UTF-8 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<link rel="shortcut icon" type="image/x-icon" href="assets/own/img/only_icon_logo_favicon.ico" />
+	
     <!-- Bootstrap CSS -->
     <!--<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" >
     <link rel="stylesheet" href="assets/bootstrap/css/carousel.css" >-->
@@ -15,11 +16,11 @@
 	<link rel="stylesheet" href="https://v4-alpha.getbootstrap.com/examples/carousel/carousel.css" >
 
     <!-- CSS propio para modelos especificos -->
-    <link rel="stylesheet" href="assets/own/style.css" >
+    <link rel="stylesheet" href="assets/own/css/style.css" >
 
     <!-- Font-Awesome (Iconos) CSS -->
     <link rel="stylesheet" href="assets/font_awesome/css/font-awesome.css"/>
-
+	  
   </head>
   <body>
     <!-- Definiendo Encabezado (Parte Estática Superior) -->
@@ -158,38 +159,47 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-9">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+      <!-- TU WEB A 1 SOLO CLICK -->
+	  <div class="row featurette">
+        <div>
+			<h2 class="text-center featurette-small-top featurette-heading">Tu web a 1 solo click &nbsp;&nbsp;<span class="text-muted"><i class="fa fa-mouse-pointer" aria-hidden="true"></i></span></h2>
+			<div class="row">
+				<div class="col-lg-2 text-center"><br><br><br>
+					<h3 class="text-muted featurette-heading">WordPress</h3><br><br><br>
+					<h3 class="text-muted featurette-heading">Joomla!</h3><br><br><br>
+					<h3 class="text-muted featurette-heading">PrestaShop</h3><br><br><br>
+				</div>
+				<div class="col-lg-8"><br>
+					<img class="featurette-image img-fluid mx-auto" alt="Generic placeholder image" src="assets/own/img/top-installatron.png">
+				</div>
+				<div class="col-lg-2 text-center"><br><br><br>
+					<h3 class="text-muted featurette-heading">Magento</h3><br><br><br>
+					<h3 class="text-muted featurette-heading">MyBB</h3><br><br><br>
+					<h3 class="text-muted featurette-heading">SMF</h3><br><br><br>
+				</div>
+			</div>
+			<p class="lead text-center">Gracias a nuestro Sistema de Instalación de Apps/CMS en 1 click, podrás crear tu propio blog, tienda online o foro de forma sencilla, gratuita y sin necesidad de tener conocimientos de programación.</p>
+		</div>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 push-md-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+      <!-- NUESTROS SERVICIOS -->
+	  <div class="row featurette">
+        <div id="serviciosdiv" class="col-md-12 text-center">
+			<h2 class="featurette-small-top featurette-heading">Nuestros Servicios</h2><br>
+			<iframe id="ourservices" class="col-lg-10 embed-responsive-item" frameBorder="0" scrolling="no" src="assets/own/html/services_tabs.html"> Este Navegador no Soporta IFRAMES </iframe>
+		</div>
       </div>
 
       <hr class="featurette-divider">
-
+	  
+	  <!-- OPINIONES DE CLIENTES -->
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+        <div id="opinionesdiv" class="col-md-12 text-center">
+			<h2 class="featurette-small-top featurette-heading">¿Qué opinan nuestros clientes?</h2><br>
+			<iframe id="lasopiniones" class="col-lg-10 embed-responsive-item" frameBorder="0" scrolling="no" src="assets/own/html/opiniones.html"> Este Navegador no Soporta IFRAMES </iframe>
+		</div>
       </div>
 
       <hr class="featurette-divider">
@@ -205,6 +215,7 @@
 			</a>
 		</p>
         <p>&copy; 2017 DobleA Network &middot; <a href="#">Políticas de Privacidad</a> &middot; <a href="#">Terminos y Condiciones de Uso</a></p>
+		<br><br><i>Todo el contenido expuesto en esta página es propiedad de DobleA Network expecto, aquellos como inágenes genéricas las cuales serán propiedad de sus respectivas empresas. La información que introduzca en esta página y en cualquier parte de doblea.uk.to será almacenada y procesada conforme a la la Ley Orgánica de Protección de Datos y ustéd podrá acojerse a su derecho de modificar o rectificar dichos datos cuando desée. Recuerde comprobar siempre que el enlace al que está accediendo es https://*.doblea.ga</i>
       </footer>
 
     </div><!-- /.container -->
@@ -213,7 +224,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.js" ></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" ></script>
     <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
