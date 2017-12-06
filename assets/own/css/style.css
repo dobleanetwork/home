@@ -1,3 +1,7 @@
+body{
+	background-color: #ffffff;
+}
+
 .featurette-small-top {
     margin-top: -2rem !important;
 }
@@ -54,4 +58,44 @@
 		height: 250px;
 	}
 	
+}
+
+.package:hover{
+	font-size:110%;
+}
+
+.btn-doblea:hover{
+	background-color: #09db3f;
+}
+
+.btnazulo{
+	color: #fff;
+    background-color: #071fba;
+    border-color: #071fba;
+}
+
+.btnazulmo{
+	color: #fff;
+    background-color: #164BBE;
+    border-color: #164BBE;
+}
+
+.btnazulmc{
+	color: #fff;
+    background-color: #0099FF;
+    border-color: #0099FF;
+}
+
+.btnazulc{
+	color: #fff;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
+.thankspage{
+	background: url('../img/thanksbackground.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
